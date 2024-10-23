@@ -10,11 +10,24 @@
 
 ## 설치
 
-이 프로젝트는 Python 3.7 이상이 필요하며, `aiofiles` 패키지가 필요합니다. 다음 명령어를 사용하여 `aiofiles`를 설치하세요:
+이 프로젝트는 Python 3.7 이상이 필요하며, `aiofiles` 패키지가 필요합니다. 설치를 위해 다음 단계를 따르세요:
 
-```bash
-pip install aiofiles
-```
+1. **가상 환경 설정 및 활성화** (권장):
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Windows에서는 `.venv\Scripts\activate`
+   ```
+
+2. **필수 패키지 설치**:
+   ```bash
+   pip install aiofiles
+   ```
+
+3. **Code Collector 설치**:
+   프로젝트 루트 디렉토리에서 다음 명령어를 실행하여 `code-collector` 명령어를 사용할 수 있도록 합니다:
+   ```bash
+   pip install .
+   ```
 
 ## 사용법
 
