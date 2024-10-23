@@ -1,2 +1,0 @@
-[console_scripts]
-code-collector = code_collector.cli:main
