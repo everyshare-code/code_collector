@@ -1,0 +1,52 @@
+# 바이트 컴파일된 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 배포 / 패키징 관련
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+dist/
+build/
+.venv/
+# 로그 파일
+*.log
+
+# Jupyter Notebook 관련
+.ipynb_checkpoints/
+
+# 단위 테스트 / 커버리지 리포트
+.coverage
+cover/
+nosetests.xml
+distinfo/
+htmlcov/
+.pytest_cache/
+
+# Pytest 설정
+pytest.ini
+
+# IDE 설정 파일 (예: PyCharm, VS Code)
+.idea/
+.vscode/
+
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
+
+# 환경 변수 파일
+.env
+
+# 개인 설정 파일
+*.ini
+config.py
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
